@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.2
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M4, niat, LIC=D0D7S-L4YIX-01BP1-C4IT3-JJCCH-5W68B
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\项目文件夹\一牛网\校车NFC项目\软件\UY_GD106_XC-改为客户服务器-优先扫码成功\UY_GD106_XC\Project\MDK-ARM\Project.uvprojx
+Project File Date:  08/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'GD32450I_EVAL'
+compiling Version.c...
+compiling at_module.c...
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c(731): warning:  #188-D: enumerated type mixed with another type
+        AT_ERROR err=0,tmp_err=0;
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c(731): warning:  #188-D: enumerated type mixed with another type
+        AT_ERROR err=0,tmp_err=0;
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c(794): warning:  #188-D: enumerated type mixed with another type
+                        err=1;
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c(841): warning:  #940-D: missing return statement at end of non-void function "MQTTPublish_File"
+  }
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c(731): warning:  #177-D: variable "tmp_err" was declared but never referenced
+        AT_ERROR err=0,tmp_err=0;
+..\..\Hardware\4G\LTE4G_Cat1\at_module.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=65540 RO-data=186968 RW-data=336 ZI-data=195888  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\\ARM\ARMCC\bin\fromelf.exe --bin --output=Project.bin .\output\Project.axf
+".\output\Project.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\项目文件夹\一牛网\校车NFC项目\软件\UY_GD106_XC-改为客户服务器-优先扫码成功\UY_GD106_XC\Project\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\GigaDevice\GD32F4xx_DFP\1.0.4\Device\F4XX\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

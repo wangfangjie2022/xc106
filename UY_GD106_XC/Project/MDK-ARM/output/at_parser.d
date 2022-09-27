@@ -1,0 +1,10 @@
+.\output\at_parser.o: ..\..\Hardware\4G\LTE4G_Cat1\at_parser.c
+.\output\at_parser.o: ..\..\Hardware\4G\LTE4G_Cat1\at_parser.h
+.\output\at_parser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\at_parser.o: ..\..\Hardware\4G\LTE4G_Cat1\queue.h
+.\output\at_parser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\at_parser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\at_parser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\at_parser.o: ..\..\Hardware\RTT\SEGGER_RTT.h
+.\output\at_parser.o: ..\..\Hardware\RTT\SEGGER_RTT_Conf.h
+.\output\at_parser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
